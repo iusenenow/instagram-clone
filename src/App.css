@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  background-color: #fafafa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-headerImage {
+  width: 103px;
+  object-fit: contain;
+}
+
+.app-signup {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.app-posts {
+  padding: 20px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-postsRight {
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post {
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+}
+
+.post-image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;;
+}
+
+.post-text {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.post-avatar {
+  margin-right: 10px;
+}
+
+.post-comments {
+  padding: 10px 20px;
+}
+
+.post-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post-button {
+  flex: 0;
+  padding: 0 8px;
+  color: #6082a3;
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-top: 1px solid lightgray;
+}
+
+.imageupload-progress {
+  width: 100%;
+}
+
+.imageupload-login {
+  text-align: center;
+  margin: 20px;
 }
