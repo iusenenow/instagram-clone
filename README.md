@@ -1,3 +1,3 @@
 ## Instagram Clone
 
-Link: [https://instagram-clone-ac40a.web.app/](Instagram Clone).
+Link: [Instagram Clone](https://instagram-clone-ac40a.web.app).
